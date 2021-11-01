@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-01T11:22:20 CET" name="Command line suite" finished-at="2021-11-01T11:22:37 CET" duration-ms="17416">
+    <groups>
+    </groups>
+    <test started-at="2021-11-01T11:22:20 CET" name="Command line test" finished-at="2021-11-01T11:22:37 CET" duration-ms="17416">
+      <class name="alerts.AlertTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:alerts.AlertTest@223d2c72]" started-at="2021-11-01T11:22:20 CET" name="setUp" finished-at="2021-11-01T11:22:27 CET" duration-ms="6769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="goHomePage()[pri:0, instance:alerts.AlertTest@223d2c72]" started-at="2021-11-01T11:22:27 CET" name="goHomePage" finished-at="2021-11-01T11:22:27 CET" duration-ms="274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHomePage -->
+        <test-method signature="testAcceptAlert()[pri:0, instance:alerts.AlertTest@223d2c72]" started-at="2021-11-01T11:22:27 CET" name="testAcceptAlert" finished-at="2021-11-01T11:22:27 CET" duration-ms="566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAcceptAlert -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:alerts.AlertTest@223d2c72]" started-at="2021-11-01T11:22:28 CET" name="recordFailure" finished-at="2021-11-01T11:22:28 CET" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAcceptAlert status=SUCCESS method=AlertTest.testAcceptAlert()[pri:0, instance:alerts.AlertTest@223d2c72] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+        <test-method is-config="true" signature="goHomePage()[pri:0, instance:alerts.AlertTest@223d2c72]" started-at="2021-11-01T11:22:28 CET" name="goHomePage" finished-at="2021-11-01T11:22:28 CET" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHomePage -->
+        <test-method signature="testGetTextFromAlert()[pri:0, instance:alerts.AlertTest@223d2c72]" started-at="2021-11-01T11:22:28 CET" name="testGetTextFromAlert" finished-at="2021-11-01T11:22:28 CET" duration-ms="497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetTextFromAlert -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:alerts.AlertTest@223d2c72]" started-at="2021-11-01T11:22:28 CET" name="recordFailure" finished-at="2021-11-01T11:22:28 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetTextFromAlert status=SUCCESS method=AlertTest.testGetTextFromAlert()[pri:0, instance:alerts.AlertTest@223d2c72] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+        <test-method is-config="true" signature="goHomePage()[pri:0, instance:alerts.AlertTest@223d2c72]" started-at="2021-11-01T11:22:28 CET" name="goHomePage" finished-at="2021-11-01T11:22:28 CET" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHomePage -->
+        <test-method signature="testSetInputInAlert()[pri:0, instance:alerts.AlertTest@223d2c72]" started-at="2021-11-01T11:22:28 CET" name="testSetInputInAlert" finished-at="2021-11-01T11:22:29 CET" duration-ms="504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetInputInAlert -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:alerts.AlertTest@223d2c72]" started-at="2021-11-01T11:22:29 CET" name="recordFailure" finished-at="2021-11-01T11:22:29 CET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSetInputInAlert status=SUCCESS method=AlertTest.testSetInputInAlert()[pri:0, instance:alerts.AlertTest@223d2c72] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:alerts.AlertTest@223d2c72]" started-at="2021-11-01T11:22:29 CET" name="tearDown" finished-at="2021-11-01T11:22:30 CET" duration-ms="1273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- alerts.AlertTest -->
+      <class name="alerts.ContextMenuTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:alerts.ContextMenuTest@77847718]" started-at="2021-11-01T11:22:30 CET" name="setUp" finished-at="2021-11-01T11:22:36 CET" duration-ms="5390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="goHomePage()[pri:0, instance:alerts.ContextMenuTest@77847718]" started-at="2021-11-01T11:22:36 CET" name="goHomePage" finished-at="2021-11-01T11:22:36 CET" duration-ms="285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHomePage -->
+        <test-method signature="testContextMenu()[pri:0, instance:alerts.ContextMenuTest@77847718]" started-at="2021-11-01T11:22:36 CET" name="testContextMenu" finished-at="2021-11-01T11:22:36 CET" duration-ms="506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContextMenu -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:alerts.ContextMenuTest@77847718]" started-at="2021-11-01T11:22:36 CET" name="recordFailure" finished-at="2021-11-01T11:22:36 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testContextMenu status=SUCCESS method=ContextMenuTest.testContextMenu()[pri:0, instance:alerts.ContextMenuTest@77847718] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:alerts.ContextMenuTest@77847718]" started-at="2021-11-01T11:22:36 CET" name="tearDown" finished-at="2021-11-01T11:22:37 CET" duration-ms="766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- alerts.ContextMenuTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
